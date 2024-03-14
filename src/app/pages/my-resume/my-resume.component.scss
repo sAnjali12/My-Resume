@@ -43,13 +43,6 @@
   .cv-subname {
     color: #f0f0f0;
   }
-
-  .cv-subname {
-    color: #dfdfdf;
-  }
-  .cv-subname {
-    color: #cdcccc;
-  }
   .cv-content-item .title{
     color: rgb(244, 244, 244);
   }
@@ -303,23 +296,7 @@ letter-spacing: 0.135vw;
       font-weight: 500;
   }
 }
-.cv-skills .title {
-  font-size:1.083vw;
-  font-weight: 200;
-  line-height: normal;
-  margin-bottom:0.541vw;
-  color: #b9b2b2;
-  width: fit-content;
-}
 
-.cv-social {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  flex-direction: row;
-  position: relative;
-  margin-top:1.083vw;
-}
  /* Toggle Dark Theme */
  #theme-btn {
   margin-top: -1px;
@@ -361,15 +338,23 @@ letter-spacing: 0.135vw;
     justify-content: space-between;
     width: 50rem;
     height: 100%;
+    margin-left: 2vw;
     position: relative;
   }
 
   #theme-btn {
     margin-top: -15px;
-    font-size:1.245vw;
+    font-size:2vw;
     margin-left:2.165vw;
     cursor: pointer;
     color: #1e1e1e;
+  }
+  #theme-btn img {
+    width:2.5vw;
+    height:2.5vw;
+    margin-right: -0.677vw;
+    object-fit: cover;
+    object-position: center;
   }
   .info {
     display: flex;
@@ -378,5 +363,169 @@ letter-spacing: 0.135vw;
     flex-direction: column;
     margin-bottom:2.165vw;
     margin-top: 0rem;
+  }
+  .cv-content-item .exprecince {
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .cv-content-item .subtitle {
+    font-size:1.193vw;
+    font-weight: 500;
+
+  }
+  .cv-content-item .time {
+    font-size:1.05vw;
+    font-weight: 500;
+ 
+  }
+  .cv-content .head-title{
+    font-size:1.445vw;
+    font-weight: 600;
+  }
+
+  .education-item {
+    p{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    div{
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: -11px;
+    }
+    .year{
+        font-size: 11px;
+        font-weight: 500;
+    }
+  }
+  .social-item {
+   
+    p {
+        margin-bottom: 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+  }
+  .info a {
+    font-size: .7rem;
+    font-weight: 600;
+  
+  }
+}
+
+@media  (max-width: 750px) {
+  .cv {
+  }
+  .cv-wrap {
+    width: 30%;
+    margin-right: -6rem;
+    flex-direction: column;
+  }
+  .cv-row {
+    display: grid;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 50rem;
+    height: 100%;
+    margin-left: 2vw;
+    position: relative;
+  }
+
+  #theme-btn {
+    margin-top: -15px;
+    font-size:2vw;
+    margin-left:2.165vw;
+    cursor: pointer;
+    color: #1e1e1e;
+  }
+  #theme-btn img {
+    width:2.5vw;
+    height:2.5vw;
+    margin-right: -0.677vw;
+    object-fit: cover;
+    object-position: center;
+  }
+  .info {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    margin-bottom:2.165vw;
+    margin-top: 0rem;
+  }
+  .cv-content-item .exprecince {
+    font-size: .7rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  .cv-content-item .subtitle {
+    font-size:1.893vw;
+    font-weight: 500;
+
+  }
+  .cv-content-item .time {
+    font-size:1.45vw;
+    font-weight: 500;
+ 
+  }
+  .cv-content .head-title{
+    font-size:1.745vw;
+    font-weight: 600;
+  }
+  .cv-skills .head-title{
+    font-size:1.945vw;
+    font-weight: 600;
+  }
+  .info .title{
+    font-size:1.945vw;
+    font-weight: 600;
+  }
+  .cv-content-item .title{
+    font-size:1.983vw;
+    font-weight: 700;
+  }
+  .cv-subname {
+    font-size:1.624vw;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom:2.165vw;
+    color: #656565;
+  }
+
+  .education-item {
+    p{
+        font-size: 11px;
+        font-weight: 600;
+    }
+    div{
+        font-size: 10px;
+        font-weight: 500;
+        margin-top: -11px;
+    }
+    .year{
+        font-size: 11px;
+        font-weight: 500;
+    }
+  }
+  .social-item {
+   
+    p {
+        margin-bottom: 0;
+        font-size: 10px;
+        font-weight: 500;
+    }
+  }
+  .info a {
+    font-size: .7rem;
+    font-weight: 600;
+  
+  }
+}
+@media (max-width: 450px) {
+  .cv-wrap {
+    width: 25%;
+    margin-right: -6rem;
+    flex-direction: column;
   }
 }

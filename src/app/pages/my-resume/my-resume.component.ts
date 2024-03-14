@@ -87,8 +87,13 @@ export class MyResumeComponent {
   }
 
 
-  socialLink(){
-    window.open('https://www.linkedin.com/in/anjali-sen-76997717a/', '_blank');
+  socialLink(type: string){
+    if(type == 'linkedin'){
+      window.open('https://www.linkedin.com/in/anjali-sen-76997717a/', '_blank');
+
+    }else{
+      window.open('https://github.com/sAnjali12', '_blank')
+    }
   }
 
 
