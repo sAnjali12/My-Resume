@@ -1,0 +1,147 @@
+
+<div class="cv" id="contentToConvert">
+        <div (click)="downloadAsPDF()" id="pdf-button" style="cursor: pointer;">
+            <i class="fa-solid fa-download fa-bounce"></i>
+        </div>
+        <div>
+          <div *ngIf="!darkMode" id="theme-btn" (click)="toggleTheme()">
+            <i class="fa-solid fa-moon fa-bounce"></i>
+            <!-- <img src="../../../assets/images/moon.gif" alt=""> -->
+
+        </div>
+        <div *ngIf="darkMode" id="theme-btn" (click)="toggleTheme()">
+            <img src="../../../assets/images/sun-waving.gif" alt="">
+            <!-- <i class="fa-solid fa-sun fa-spin"></i>           -->
+        </div>
+        </div>
+        <div class="cv-row" >
+          <div class="cv-wrap">
+            <div class="cv-name">Anjali Sen  
+            </div>
+            <div class="cv-subname">Web Designer & Full Stack Developer</div>
+            <div class="cv-content">
+                <div class="head-title">About</div>
+                <div class="cv-content-item">
+                  <div class="exprecince">Driven and dedicated IT professional with over 4 years of hands-on experience in software development. My expertise spans a wide range of technologies, including HTML, 
+                    CSS, and Bootstrap for front-end development, along with Angular, TypeScript, REST API, Node.js, Hapi.js, MongoDB, 
+                    and ExpressJS for full-stack development. Proficient in cloud computing with AWS and adept at utilizing version control tools such as Git, 
+                    GitHub, and Bitbucket. Experienced in project management tools like JIRA and Trello, 
+                    facilitating efficient collaboration and task management within teams.</div>
+                </div>
+              <div class="head-title">Company Projects</div>
+              <div class="cv-content-item">
+                <div class="exprecince">HeatDance, Le-offer, Promotix, Boatzone, Instrucko, Fanzly, ideal</div>
+              </div>
+              <div class="head-title">Exprecince</div>
+              <div class="cv-content-item">
+                <div class="title">Frontend Developer/Full Stack Developer</div>
+                <div class="subtitle">3Embed Software Technologies Private Limited</div>
+                <div class="time">2020-2023 - 3 years</div>
+                <div class="exprecince">As a full-time MEAN Stack Developer at Appscrip, I am responsible for designing, developing, 
+                    and maintaining robust and scalable web applications using the MEAN stack (MongoDB, Express.js, Angular, Node.js). 
+                    Here's an overview of my role and contributions:
+    
+                    <ul class="key-points">
+                        <li>Led full stack development efforts, utilizing Angular for frontend interfaces and Node.js/Express.js for backend logic, 
+                         ensuring smooth integration and high performance.</li> 
+                         <li>Designed and implemented MongoDB databases,
+                             focusing on optimizing data storage and retrieval processes to meet application requirements while maintaining data security.</li>    
+                         <li>Engaged in Agile development methodologies, 
+                             contributing to sprint planning, daily stand-ups, and sprint reviews for collaborative feature delivery.</li>    
+                         <li>Upheld coding best practices to produce clean, maintainable code, 
+                             while continuously optimizing application performance and scalability to meet evolving business needs.
+                         </li>    
+                         <li>Fostered team collaboration across frontend and backend developers, 
+                             UI/UX designers, QA testers, and project managers to align with project objectives and quality standards.</li>    
+                         <li>Committed to continuous learning, staying updated on emerging web technologies through workshops, training sessions, 
+                             and online courses to enhance proficiency in MEAN stack and related technologies.</li>    
+                     </ul>
+                </div>
+                  
+              </div>
+              <div class="cv-content-item">
+                <div class="title">Angular Developer</div>
+                <div class="subtitle">Ksolves India Limited (Part-time)</div>
+                <div class="time">2023- Present now</div>
+                <div class="exprecince">As an Angular Developer working on a contract basis, 
+                    I provided valuable expertise in developing and enhancing web applications using Angular frameworks. Here's an overview of my contributions during this period:
+                    <ul class="key-points">
+                        <li>Project Collaboration: Collaborated with clients and project teams to understand requirements and translate them into functional user interfaces,
+                          ensuring alignment with project goals.</li> 
+                         <li>Angular Development: Developed responsive web applications using Angular 8+, implementing best practices to deliver high-quality code.</li>        
+                         <li>Client Communication: Regularly communicated with clients to provide updates on project progress and gather feedback, 
+                             ensuring transparent collaboration.
+                         </li>    
+                         <li>Problem-solving: Identified and resolved technical issues through troubleshooting and debugging, ensuring application stability.</li>    
+                         <li>Flexibility and Adaptability: Managed multiple clients and projects simultaneously, prioritizing effectively to meet deadlines and deliverables.</li>    
+                     </ul>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+          <div class="cv-wrap">
+            <div class="avatar">
+            </div>
+            <div class="info">
+              <div class="title">Contact</div>
+              <p><a href="">{{'anjalisen694@gmail.com'}}</a></p>
+              <p><a href="tel:+905555554444">+918602289353</a></p>
+              <p></p>
+            </div>
+            <div class="cv-skills">
+              <div class="head-title">Social
+              </div>
+              <div class="social-info d-flex">
+                
+                <div class="social-item">
+                    <p>Linkd In</p><span (click)="socialLink()"><i class="fa-brands fa-linkedin-in fa-beat-fade"></i></span>
+                </div>
+                <div class="social-item mt-3">
+                    <p>GitHub</p>
+                    <span> <i class="fa-brands fa-github fa-beat-fade"></i></span>
+                </div>
+                <div class="social-item mt-3">
+                    <p>Instagram</p>
+                    <span> <i class="fa-brands fa-instagram fa-beat-fade"></i></span>
+                </div>
+            </div>
+            </div>
+            <div class="cv-skills mt-5">
+              <div class="head-title">Education
+              </div>
+              <div class="education-info">
+                <div class="education-item">
+                    <p>Degree / Bachelor</p>
+                    <div>University Of Vikram</div>
+                    <p class="year">2017-2021</p>
+                </div>
+                <div class="education-item">
+                    <p>Organization / Internship</p>
+                    <div>Navgurukul (Bengaluru)</div>
+                    <p class="year">2018-2019</p>
+                </div>
+                <div class="education-item mt-2">
+                    <p>School/HSC</p>
+                    <div>HSC from M.P Board</div>
+                    <p class="year">2016-2017</p>
+    
+                </div>
+                <div class="education-item mt-2">
+                    <p>School/SSC</p>
+                    <div>SSC from M.P Board</div>
+                    <p class="year">2014-2015</p>
+    
+                </div>
+            </div>
+      
+            </div>
+            
+            
+            
+          </div>
+      
+        </div>
+       
+</div>
+  <!-- <button (click)="downloadAsPDF()"></button> -->
