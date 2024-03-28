@@ -91,7 +91,11 @@ export class MyResumeComponent {
     if(type == 'linkedin'){
       window.open('https://www.linkedin.com/in/anjali-sen-76997717a/', '_blank');
 
-    }else{
+    }
+    if(type == 'resume'){
+      window.open('https://docs.google.com/document/d/1oTcOxsBA2q2cWtTrvcUw6wi_08HkYvAc2ecwHa3zFSo/edit?usp=sharing', '_blank')
+    }
+    else{
       window.open('https://github.com/sAnjali12', '_blank')
     }
   }
