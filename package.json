@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:resume": "node dist/resume/server/server.mjs"
+    "serve:ssr:resume": "node dist/My-Resume/server/server.mjs"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +23,7 @@
     "@angular/platform-server": "^17.2.0",
     "@angular/router": "^17.2.0",
     "@angular/ssr": "^17.2.2",
+    "@babel/runtime": "^7.24.4",
     "@fortawesome/angular-fontawesome": "^0.14.1",
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -31,12 +32,6 @@
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "animate.css": "^4.1.1",
     "express": "^4.18.2",
-    "html-to-pdfmake": "^2.5.3",
-    "html2canvas": "^1.4.1",
-    "html2pdf.js": "^0.10.1",
-    "jspdf": "^2.5.1",
-    "jspdf-autotable": "^3.8.2",
-    "pdfmake": "^0.2.10",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
